@@ -1,7 +1,4 @@
-* {
-    margin: 0px;
-    outline: 1px dashed red;
-}
+
 .wrapper {
     width: 900px;
     margin: 0px auto;
@@ -15,7 +12,7 @@
     padding: 5px;
     text-align: left;
     display: inline-block;
-    vertical-align: top;
+    vertical-align: center;
 }
 .header h2 {
  margin-right: 5px;
@@ -28,12 +25,88 @@
 .contentBox {
     background-color: rgb(34, 7, 44);
     width: 100%;
+    
 }
-#photoLady img {
-    width: 400px;
-    border: 2px solid lightgrey;
+.topRow img {
+    width: 398px;
+    border: 2px solid lightgray;
+    display: inline-block;
+    margin:14px;
+    vertical-align: top;
+    height: 292px;
+    vertical-align: top;
+      
+}
+    
+#aboutMe {
+    width: 440px;
+    height: 300px;
+    background-color: lightgray;
+    color: rgb(56, 55, 55);
+    display: inline-block;
+    vertical-align: top;   
+    margin-top: 10px;
+    
+}
+p{
+    padding: 3px;
+} 
+
+h3 {
+    background-color: rgb(56, 55, 55);
+    color: lightgray;
+    padding: 5px;
+    vertical-align: top;
+    text-align: left
+}
+
+#aboutMe a {
+    color: rgb(56, 55, 55);
+}
+.projectRow {
     margin: 5px;
 }
-#aboutBox {
+.project {
+    width: 30%;
+    color: rgb(56, 55, 55);
+    background-color: lightgray;
+    font-size: 80%;
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+    margin: 12px;
     
+}
+.project img {
+    width: 100% 
+}
+.project2 {
+    padding: 5px;
+    height: 100%;
+    margin: 0 auto;
+        
+}
+.project2 img {
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+}
+button {
+    margin-left: 33%;
+    
+}
+.footer{
+    background-color: rgb(230, 234, 238);
+    color: black;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+.footer img{
+    width: 2%;
+}
+.footer a {
+    color: black;
+    text-align: center;
+    vertical-align: top;
 }
