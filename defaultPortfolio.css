@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    outline: 1px dashed red;
+}
+.wrapper {
+    width: 900px;
+    margin: 0px auto;
+}
+.header {
+    background-color: rgb(230, 234, 238);
+    color: black;
+}
+.header h1 {
+    margin-left: 5px;
+    padding: 5px;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+}
+.header h2 {
+ margin-right: 5px;
+ margin-top: 10px;
+ padding-left: 350px;
+ text-align: right;
+ vertical-align: center; 
+ display: inline-block;  
+}
+.contentBox {
+    background-color: rgb(34, 7, 44);
+    width: 100%;
+}
+#photoLady img {
+    width: 400px;
+    border: 2px solid lightgrey;
+    margin: 5px;
+}
+#aboutBox {
+    
+}
