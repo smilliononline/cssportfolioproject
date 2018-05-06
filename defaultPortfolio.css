@@ -28,14 +28,12 @@
     
 }
 .topRow img {
-    width: 398px;
+    width: 44%;
     border: 2px solid lightgray;
     display: inline-block;
     margin:14px;
     vertical-align: top;
-    height: 292px;
-    vertical-align: top;
-      
+             
 }
     
 #aboutMe {
@@ -57,7 +55,8 @@ h3 {
     color: lightgray;
     padding: 5px;
     vertical-align: top;
-    text-align: left
+    text-align: left;
+    margin: 0;
 }
 
 #aboutMe a {
